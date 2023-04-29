@@ -8,6 +8,7 @@ namespace PracticaMVC.Models
         {
             
         }
+        public DbSet<equipos> equipos { get; set; }
         public  DbSet<marcas> marcas { get; set; }
         public DbSet<Carreras> Carreras { get; set; }
         public DbSet<Estados_equipo> Estados_Equipos { get; set; }
